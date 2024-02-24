@@ -1,0 +1,57 @@
+/* base */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+:root{
+    --color-one:#8861ED;
+    --color-two:#FF589E;
+    --color-text:#777;
+    --color-three:#EAECEB;
+    --bg-one:#F2F2FE;
+    --bg-two:#FAFAFA;
+    --bg-three:#FFFFFF;
+    --footer:#262626;
+    
+    --font-one:'Lato', sans-serif;
+    --font-two:'Quicksand', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    background:#FFFFFF;
+    font-family: var(--font-one);
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+    color:#E57905;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    padding:10px 20px;
+    border-radius: 10px;
+    border:0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.col-xl-2{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+@media (min-width: 992px){
+    .col-xl-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    }
+}
+/* END BASE */
